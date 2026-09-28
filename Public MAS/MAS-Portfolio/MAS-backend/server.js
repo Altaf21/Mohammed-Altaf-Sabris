@@ -6,7 +6,7 @@ const mysql = require("mysql2/promise");
 const nodemailer = require("nodemailer");
 const contactRoutes = require("./routes/contact");
 
-const app = express();jj
+const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
